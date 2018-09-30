@@ -15,17 +15,17 @@ d) IV3
 
 e) Inception ResNet V2 
 
-2) Dataset Partition
+2) Dataset Partition (After Cleansing Corrupted Images)
 
-a) Buddhist - 815
+a) Buddhist - 809
 
-b) Dravidian - 834
+b) Dravidian - 822
 
-c) kalinga - 1114
+c) kalinga - 1102
 
-d) Mughal  - 786
+d) Mughal  - 781
 
-Total Number of Training Images Originally - 3549
+Total Number of Training Images Originally (after cleansing) - 3514
 
 Train/Val/Test Split - 80/10/10 - For Now
 (Could recheck with 60/20/20)
