@@ -2,7 +2,7 @@
 indian monumnet classification
 
 
-To-dos
+## To-dos
 1) Image-Net models check - 
 
 a) Alexnet
@@ -10,6 +10,16 @@ a) Alexnet
 b) VGG-16
 
 c) ReSNet-50
+
+(Could recheck with 60/20/20)
+
+3)Grid Search Method
+
+4) Model Ensemble methods
+
+5) Dataset Augmentation - imgaug library
+
+## Done
 
 d) IV3
 
@@ -29,11 +39,10 @@ Total Number of Training Images Originally (after cleansing) - 3514 - 2809/354/3
 
 Train/Val/Test Split - 80/10/10 - For Now
 
+## Test Results
+Results on the test data :
 
-(Could recheck with 60/20/20)
-
-3) Tackle Dataset Imbalance - Kalinga too many positives
-
-4) Model Ensemble methods
-
-5) Dataset Augmentation - imgaug library
+Model Architecture| Data Subset | Train | Validation | Test
+------------- | -------- | ---------  | ---------- | ----------
+Inception V3  | Images| 90 | 80|77.2 
+Inception ResNet V2  | Images| 97.29 |29.17  |47.96
