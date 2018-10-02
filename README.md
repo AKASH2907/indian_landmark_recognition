@@ -42,7 +42,8 @@ Train/Val/Test Split - 80/10/10 - For Now
 ## Test Results
 Results on the test data :
 
-Model Architecture| Data Subset | Train | Validation | Test
+Model Architecture| Variations | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
-Inception V3  | Images| 90 | 80|77.2 
-Inception ResNet V2  | Images| 91 |80  |80.9
+Inception V3  | 416x416| 90 | 80|77.2 
+Inception ResNet V2  | 416x416| 91 |80  |80.9
+VGG16 | 416x416 | ||45
