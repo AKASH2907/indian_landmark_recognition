@@ -45,4 +45,4 @@ Results on the test data :
 Model Architecture| Data Subset | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
 Inception V3  | Images| 90 | 80|77.2 
-Inception ResNet V2  | Images| 97.29 |29.17  |47.96
+Inception ResNet V2  | Images| 91 |80  |80.9
