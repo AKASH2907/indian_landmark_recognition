@@ -5,19 +5,13 @@ indian monumnet classification
 ## To-dos
 1) Image-Net models check - 
 
-a) Alexnet
-
-b) VGG-16
-
-c) ReSNet-50
-
-(Could recheck with 60/20/20)
+ResNet-101/151
+ResNeXt
 
 3)Grid Search Method
 
 4) Model Ensemble methods
 
-5) Dataset Augmentation - imgaug library
 
 ## Done
 
@@ -39,6 +33,8 @@ Total Number of Training Images Originally (after cleansing) - 3514 - 2809/354/3
 
 Train/Val/Test Split - 80/10/10 - For Now
 
+3) Saliency Detection - Objectness Trained Model
+
 ## Test Results
 Results on the test data :
 
@@ -46,4 +42,5 @@ Model Architecture| Variations | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
 Inception V3  | 416x416| 90 | 80|77.2 
 Inception ResNet V2  | 416x416| 91 |80  |80.9
-VGG16 | 416x416 | ||45
+Saliency | 416x416 | |79|78.91
+Images + Saliency| 416x416|||
