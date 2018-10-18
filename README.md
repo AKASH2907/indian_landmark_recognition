@@ -12,6 +12,7 @@ ResNeXt
 
 4) Model Ensemble methods
 
+## 5) Model Architecture Finalize
 
 ## Done
 
@@ -38,9 +39,10 @@ Train/Val/Test Split - 80/10/10 - For Now
 ## Test Results
 Results on the test data :
 
-Model Architecture| Variations | Train | Validation | Test
+Model Architecture| Epochs | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
-Inception V3  | 416x416| 90 | 80|77.2 
-Inception ResNet V2  | 416x416| 91 |80  |80.9
-Saliency | 416x416 | |79|78.91
-Images + Saliency| 416x416|||
+Inception V3  | 7| 90 | 80|77.2 
+Inception ResNet V2  | 7| 91 |80  |80.9
+Saliency | 7 | |79|78.91
+Images + Saliency| 4|||80.79
+Saliency + Images |4 |||
