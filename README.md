@@ -45,4 +45,6 @@ Inception V3  | 7| 90 | 80|77.2
 Inception ResNet V2  | 7| 91 |80  |80.9
 Saliency | 7 | |79|78.91
 Images + Saliency| 4|||80.79
-Saliency + Images |4 |||
+Saliency + Images |4 |||79
+
+Test Image-> Saliency -> Batch Formation -> ImageNet Weights
