@@ -12,6 +12,10 @@ ResNeXt
 
 4) Model Ensemble methods
 
+Evaluation Metric Finalisation
+DELF Features use 
+Features Generate
+
 ## 5) Model Architecture Finalize
 
 ## Done
