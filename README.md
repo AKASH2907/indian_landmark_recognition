@@ -15,6 +15,7 @@ ResNeXt
 Evaluation Metric Finalisation
 DELF Features use 
 Features Generate
+sklearn feature classification
 
 ## 5) Model Architecture Finalize
 
@@ -45,10 +46,16 @@ Results on the test data :
 
 Model Architecture| Epochs | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
-Inception V3  | 7| 90 | 80|77.2 
-Inception ResNet V2  | 7| 91 |80  |80.9
-Saliency | 7 | |79|78.91
-Images + Saliency| 4|||80.79
-Saliency + Images |4 |||79
+Inception V3  | 7| 90 | 83|83.47
+Inception ResNet V2  | 7| 91 |77 |76.35
+Images + Saliency(IRV2)|5||81|80
+Images + Slaiency(IV3)|5|||
 
+Test Images prediction - 
+1) First Network Architecture - 
 Test Image-> Saliency -> Batch Formation -> ImageNet Weights
+GBVS + IRV2(IRV2 + Saliency wts) - 5 images - 81.05 &&& 10 images - 85.18
+
+
+
+
