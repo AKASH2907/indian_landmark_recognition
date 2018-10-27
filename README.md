@@ -1,13 +1,16 @@
 # monument-classification
-indian monumnet classification
+indian monument classification
 
 
 ## To-dos
-3)Grid Search Method
+
+3) Grid Search Method
 
 4) Model Ensemble methods
 
 sklearn feature classification - kNN, SVM, Random Forest
+
+Dataset Visualization
 
 ## 5) Model Architecture Finalize
 
@@ -50,10 +53,15 @@ Images + Saliency(IRV2)|5||81|80
 Images + Saliency(IV3)|5||80|78.91
 
 Test Images prediction - 
+
 1) First Network Architecture - 
+
 Test Image-> Saliency -> Batch Formation -> ImageNet Weights
+
 GBVS + IRV2(IRV2 + Saliency wts) - 5 images - 81.05 &&& 10 images - 85.18
+
 GBVS + IV3(IV3 wts only) - 10 images - 80.626
+
 GBVS + IV3(IV3 + Saliency wts) - 10 images - 
 
 
