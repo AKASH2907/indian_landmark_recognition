@@ -3,23 +3,21 @@ indian monumnet classification
 
 
 ## To-dos
-1) Image-Net models check - 
-
-ResNet-101/151
-ResNeXt
-
 3)Grid Search Method
 
 4) Model Ensemble methods
 
-Evaluation Metric Finalisation
-DELF Features use 
-Features Generate
-sklearn feature classification
+sklearn feature classification - kNN, SVM, Random Forest
 
 ## 5) Model Architecture Finalize
 
 ## Done
+
+Evaluation Metric Finalisation
+
+Features Generate
+
+DELF Features use 
 
 d) IV3
 
