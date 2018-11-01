@@ -1,26 +1,15 @@
 # monument-classification
 indian monument classification
 
-
 ## To-dos
 
-3) Grid Search Method
-
-4) Model Ensemble methods
-
-sklearn feature classification - kNN, SVM, Random Forest
+6) Model Ensemble methods
 
 Dataset Visualization
 
-## 5) Model Architecture Finalize
-
 ## Done
 
-Evaluation Metric Finalisation
-
-Features Generate
-
-DELF Features use 
+1) Image Net models & Evaluation Metric Finalisation
 
 d) IV3
 
@@ -41,6 +30,10 @@ Total Number of Training Images Originally (after cleansing) - 3514 - 2809/354/3
 Train/Val/Test Split - 80/10/10 - For Now
 
 3) Saliency Detection - Objectness Trained Model
+
+4) sklearn feature classification - kNN, SVM, Random Forest
+
+5) Model Architecture Finalize
 
 ## Test Results
 Results on the test data :
