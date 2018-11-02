@@ -60,9 +60,11 @@ GBVS + IV3(IV3 + Saliency wts) - 10 images -
 
 
 2) 2nd Network architecture: - 
-IV3 - kNN - 87%
+IV3 - kNN - 87% 
 
 IRV2 - kNN - 88%
+
+Ensemble Difreent Classifiers - 91% approximately
 
 Parameters: n_neighbours = 20
 
