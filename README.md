@@ -1,10 +1,9 @@
 # monument-classification
 indian monument classification
 
+![collage](https://user-images.githubusercontent.com/22872200/48219234-fc839b00-e3b1-11e8-8efb-dea1392663a3.jpg)
+
 ## To-dos
-
-6) Model Ensemble methods
-
 Dataset Visualization
 
 ## Done
@@ -34,6 +33,8 @@ Train/Val/Test Split - 80/10/10 - For Now
 4) sklearn feature classification - kNN, SVM, Random Forest
 
 5) Model Architecture Finalize
+
+6) Model Ensemble methods
 
 ## Test Results
 Results on the test data :
