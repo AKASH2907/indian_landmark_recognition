@@ -4,10 +4,6 @@ This is an implementation of Indian Architectural Classification implemented on 
 
 ![collage](https://user-images.githubusercontent.com/22872200/48219234-fc839b00-e3b1-11e8-8efb-dea1392663a3.jpg)
 
-## To-dos
-Dataset Visualization
-
-## Done
 
 1) Image Net models & Evaluation Metric Finalisation
 
@@ -70,5 +66,6 @@ Ensemble Difreent Classifiers - 91% approximately
 
 Parameters: n_neighbours = 20
 
-3) 3rd Network Architecture
-DELF - Accuracy - 
+## To-dos
+Dataset Visualization
+DELF Image Feature Retrieval 
