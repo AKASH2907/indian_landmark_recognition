@@ -1,8 +1,18 @@
-# monument-classification
+# monument-recognition
 
 This is an implementation of Indian Architectural Classification implemented on Python 3 and Keras with TensorFlow backend.The architecture consists of average ensemble of Graph-based Visual Saliency Network and supervised classification algorithms such as kNN and Random Forest. ImageNet model used for feature generation is Inception ResNet V2.
 
 ![collage](https://user-images.githubusercontent.com/22872200/48219234-fc839b00-e3b1-11e8-8efb-dea1392663a3.jpg)
+
+The repository includes:
+
+* Load Training batches for the model
+* Salient Region Detection
+* Finetuning on ImageNet models - Inception V3 and Inception ResNet V2
+* Multi-stage Training
+* Graph-ased Visual Saliency and ImageNet model end-to-end
+* DELF Landmark retrieval
+* Evaluation File and Metrics
 
 
 1) Image Net models & Evaluation Metric Finalisation
