@@ -1,6 +1,6 @@
 # monument-recognition
 
-**Paper accepted at WDH Workshop, ICVGIP'18**
+**Updates: Paper accepted at WDH Workshop, ICVGIP'18 :grimacing:**
 
 This is an implementation of Indian Architectural Classification implemented on Python 3 and Keras with TensorFlow backend.The architecture consists of average ensemble of Graph-based Visual Saliency Network and supervised classification algorithms such as kNN and Random Forest. ImageNet model used for feature generation is Inception ResNet V2.
 
@@ -15,6 +15,24 @@ The repository includes:
 * Graph-ased Visual Saliency and ImageNet model end-to-end
 * DELF Landmark retrieval
 * Evaluation File and Metrics
+
+## Getting Started
+
+* Install the required dependencies:
+ ```javascript
+ pip install -r requirements.txt
+```
+* 
+* 
+
+## Step by Step Classification 
+
+## Dataset
+
+## Graph-based Visual Saliency
+
+![gbvs](https://user-images.githubusercontent.com/22872200/49278828-e4cc9d80-f4ab-11e8-950c-ded899cbd559.png)
+
 
 
 1) Image Net models & Evaluation Metric Finalisation
@@ -81,3 +99,12 @@ Parameters: n_neighbours = 20
 ## To-dos
 Dataset Visualization
 DELF Image Feature Retrieval 
+
+## References
+
+[1] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, Zbigniew Wojna, "[
+Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)" arXiv preprint arXiv:1512.00567.
+
+[2] Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alex Alemi, "[Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261)" arXiv preprint arXiv:1602.07261. 
+
+[3] TRIANTAFYLLIDIS, Georgios; KALLIATAKIS, Gregory. "[Image based Monument Recognition using Graph based Visual Saliency](https://elcvia.cvc.uab.es/article/view/v12-n2-triantafyllidis-kalliatakis)", ELCVIA Electronic Letters on Computer Vision and Image Analysis.
