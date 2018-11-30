@@ -29,6 +29,15 @@ The repository includes:
 
 ## Dataset
 
+The dataset used in this repo is made by our team. We did scrapping from several websites and then filtered out corrupt images to genrate a datset of 3514 images. The dataset is divided in the ratio of 80/10/10 (2809/354/351) that is train/val/test respectively.
+
+Classes| Total |  Training | Validation | Test
+-------------| --------- | ---------  | ---------- | ----------
+Buddhist  | 809  | 647 | 81 | 81 
+Dravidian | 822  | 657 | 83 | 82
+Kalinga   | 1102 | 881 | 111| 110
+Mughal    | 781  | 624 | 79 | 78
+
 ## Graph-based Visual Saliency
 
 ![gbvs](https://user-images.githubusercontent.com/22872200/49278828-e4cc9d80-f4ab-11e8-950c-ded899cbd559.png)
@@ -40,20 +49,6 @@ The repository includes:
 d) IV3
 
 e) Inception ResNet V2 
-
-2) Dataset Partition (After Cleansing Corrupted Images)
-
-a) Buddhist - 809 - 647/81/81
-
-b) Dravidian - 822 - 657/83/82
-
-c) kalinga - 1102 - 881/111/110
-
-d) Mughal  - 781 - 624/79/78
-
-Total Number of Training Images Originally (after cleansing) - 3514 - 2809/354/351
-
-Train/Val/Test Split - 80/10/10 - For Now
 
 3) Saliency Detection - Objectness Trained Model
 
