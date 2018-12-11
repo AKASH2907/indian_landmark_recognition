@@ -40,9 +40,10 @@ Mughal    | 781  | 624 | 79 | 78
 
 ## Graph-based Visual Saliency
 
-![gbvs](https://user-images.githubusercontent.com/22872200/49278828-e4cc9d80-f4ab-11e8-950c-ded899cbd559.png)
+![gbvs](https://user-images.githubusercontent.com/22872200/49820966-4d1a5980-fd9f-11e8-9d65-c385fd12592d.png)
 
-
+Image Saliency is what stands out and how fast you are able to quickly focus on the most relevant parts of what you see. Now, in the case of landmarks the less salient region is common backgrounds, that’s of blue sky. The architectural de-
+sign of the monuments is what differentiates between the classes. 
 
 1) Image Net models & Evaluation Metric Finalisation
 
