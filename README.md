@@ -27,6 +27,21 @@ The repository includes:
 
 ## Step by Step Classification 
 
+## Citation
+If you use this repistory, please cite the paper as follows:
+```javascipt
+@article{DBLP:journals/corr/abs-1811-12748,
+  author    = {Akash Kumar and
+               Sagnik Bhowmick and
+               N. Jayanthi and
+               S. Indu},
+  title     = {Improving Landmark Recognition using Saliency detection and Feature
+               classification},
+  journal   = {CoRR},
+  volume    = {abs/1811.12748},
+  year      = {2018}
+}
+```
 ## Dataset
 
 The dataset used in this repo is made by our team. We did scrapping from several websites and then filtered out corrupt images to genrate a datset of 3514 images. The dataset is divided in the ratio of 80/10/10 (2809/354/351) that is train/val/test respectively.
