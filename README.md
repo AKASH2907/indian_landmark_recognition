@@ -22,7 +22,7 @@ The repository includes:
  ```javascript
  pip install -r requirements.txt
 ```
-* 
+* [inception_v3_finetuning.py](https://github.com/AKASH2907/indian_landmark_recognition/blob/master/inception_v3_finetuning.py): Transfer Learning on Original Images and Salient Images.
 * 
 
 ## Step by Step Classification 
