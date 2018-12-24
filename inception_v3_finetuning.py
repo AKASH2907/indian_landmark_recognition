@@ -113,25 +113,6 @@ history = model.fit(x_train, y_train, batch_size=BATCH_SIZE, epochs=7, verbose= 
 
 score = model.evaluate(x_test, y_test, verbose=1, batch_size= BATCH_SIZE)
 
-print(score)
-
+# print(score)
 
 # model.save_weights(savepath1 + 'iv3_1_416.h5')
-
-# m = cv2.imread('./train/cmnmyn/120503.jpg', 1)
-# m1 = cv2.imread('./train/cmnmyn/110503.jpg', 1)
-# m = cv2.resize(m, (416, 416))
-# m1 = cv2.resize(m1, (416, 416))
-# b = []
-# b.append(m)
-# b.append(m1)
-# b = np.asarray(b).astype('float32')
-# b/=255
-# # b = b.reshape((2, 416, 416, 3))
-# print(b.shape)
-# # for i in range(2):
-# p = model.predict(b)
-# print(p)
-# for i in range(b.shape[0]):
-#     print(np.flip(np.argsort(p)[i], axis=0))
-# print(history.history.keys())
