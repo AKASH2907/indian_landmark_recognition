@@ -1,6 +1,6 @@
 # monument-recognition
 
-**Updates: Paper accepted at WDH Workshop, ICVGIP'18 :grimacing:**
+**Updates: Paper accepted at WDH Workshop, 11th ICVGIP'18 :grimacing:**
 
 This is an implementation of Indian Architectural Classification implemented on Python 3 and Keras with TensorFlow backend.The architecture consists of average ensemble of Graph-based Visual Saliency Network and supervised classification algorithms such as kNN and Random Forest. ImageNet model used for feature generation is Inception ResNet V2.
 
@@ -12,9 +12,11 @@ The repository includes:
 * Salient Region Detection
 * Finetuning on ImageNet models - Inception V3 and Inception ResNet V2
 * Multi-stage Training
-* Graph-ased Visual Saliency and ImageNet model end-to-end
+* Graph-based Visual Saliency and ImageNet model end-to-end
 * DELF Landmark retrieval
 * Evaluation File and Metrics
+
+The code is documented and designed to be easy to extend. If you use it in your research, please consider citing this repository (bibtex below).
 
 ## Getting Started
 
@@ -23,13 +25,14 @@ The repository includes:
  pip install -r requirements.txt
 ```
 * [inception_v3_finetuning.py](https://github.com/AKASH2907/indian_landmark_recognition/blob/master/inception_v3_finetuning.py): Transfer Learning on Original Images and Salient Images.
-* 
+* [inception_resnet_v2_finetuning.py](https://github.com/AKASH2907/indian_landmark_recognition/blob/master/inception_resnet_v2_finetuning.py): Transfer Learning  on Original Images and Salient Images.
+* [](): 
 
 ## Step by Step Classification 
 
 ## Citation
 If you use this repistory, please cite the paper as follows:
-```javascipt
+```
 @article{DBLP:journals/corr/abs-1811-12748,
   author    = {Akash Kumar and
                Sagnik Bhowmick and
