@@ -63,28 +63,15 @@ Mughal    | 781  | 624 | 79 | 78
 Image Saliency is what stands out and how fast you are able to quickly focus on the most relevant parts of what you see. Now, in the case of landmarks the less salient region is common backgrounds, that’s of blue sky. The architectural de-
 sign of the monuments is what differentiates between the classes. 
 
-1) Image Net models & Evaluation Metric Finalisation
-
-d) IV3
-
-e) Inception ResNet V2 
-
-3) Saliency Detection - Objectness Trained Model
-
-4) sklearn feature classification - kNN, SVM, Random Forest
-
-5) Model Architecture Finalize
-
-6) Model Ensemble methods
 
 ## Test Results
-Results on the test data :
+Accuracy during Multi-Stage Training on Inception V3 and Inception ResNet V2 models :
 
-Model Architecture| Epochs | Train | Validation | Test
+Model Architecture| Data Subset | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
-Inception V3  | 7| 90 | 83|83.47
-Inception ResNet V2  | 7| 91 |77 |76.35
-Images + Saliency(IRV2)|5||81|80
+Inception V3  | Original Images| 90 | 77.23|75.42
+| Original + Salient| 91.81 |80.3 |78.91
+Inception ResNet V2|5||81|80
 Images + Saliency(IV3)|5||80|78.91
 
 Test Images prediction - 
@@ -99,8 +86,7 @@ GBVS + IV3(IV3 wts only) - 10 images - 80.626
 
 GBVS + IV3(IV3 + Saliency wts) - 10 images - 
 
-
-
+ 
 2) 2nd Network architecture: - 
 IV3 - kNN - 87% 
 
