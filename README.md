@@ -70,35 +70,41 @@ Accuracy during Multi-Stage Training on Inception V3 and Inception ResNet V2 mod
 Model Architecture| Data Subset | Train | Validation | Test
 ------------- | -------- | ---------  | ---------- | ----------
 Inception V3  | Original Images| 90 | 77.23|75.42
-| Original + Salient| 91.81 |80.3 |78.91
-Inception ResNet V2|5||81|80
-Images + Saliency(IV3)|5||80|78.91
+Inception V3  | Original + Salient| 91.81 |80.3 |78.91
+Inception ResNet V2|Original Images|91.76|77|76.35
+Inception ResNet V2|Original + Salient|92.29|81|80
+
+Evaluation comparison (in %) of different models
+Model Architecture|  Train | Validation | Test
+------------- | ---------  | ---------- | -------
+GBVS + InceptionResNetV2| 92.61 | 89.65 |  86.18
+Inception ResNetV2 + kNN| 93.62 | 90.72 | 86.94
+Inception ResNetV2 + Random Forest| 91.58 | 89.8
+Average Ensembling |94.58|93.8|90.08
+
+Comparison of our best model with competing methods[4]:
+Framework|Test
+---------|----
+SIFT + BoW| 51%
+Gabor Transform + Radon Barcode | 70%
+Radon Barcode| 75%
+CNN | 82%
+Our Method | 91%
 
 Test Images prediction - 
 
-1) First Network Architecture - 
+1) 1st Network Architecture - 
 
-Test Image-> Saliency -> Batch Formation -> ImageNet Weights
-
-GBVS + IRV2(IRV2 + Saliency wts) - 5 images - 81.05 &&& 10 images - 85.18
-
-GBVS + IV3(IV3 wts only) - 10 images - 80.626
-
-GBVS + IV3(IV3 + Saliency wts) - 10 images - 
-
+Test Image-> Saliency -> Batch Formation -> Pretrained ImageNet Weights
  
 2) 2nd Network architecture: - 
-IV3 - kNN - 87% 
+Pretrained Inception V3 -> kNN - 87% 
 
 IRV2 - kNN - 88%
 
-Ensemble Difreent Classifiers - 91% approximately
+Ensemble Diffrent Classifiers - 91% approximately
 
 Parameters: n_neighbours = 20
-
-## To-dos
-Dataset Visualization
-DELF Image Feature Retrieval 
 
 ## References
 
@@ -108,3 +114,4 @@ Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs
 [2] Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, Alex Alemi, "[Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261)" arXiv preprint arXiv:1602.07261. 
 
 [3] TRIANTAFYLLIDIS, Georgios; KALLIATAKIS, Gregory. "[Image based Monument Recognition using Graph based Visual Saliency](https://elcvia.cvc.uab.es/article/view/v12-n2-triantafyllidis-kalliatakis)", ELCVIA Electronic Letters on Computer Vision and Image Analysis.
+[4] Sharma S., Aggarwal P., Bhattacharyya A.N., Indu S. (2018) Classification of Indian Monuments into Architectural Styles. NCVPRIPG 2017. Communications in Computer and Information Science, vol 841. Springer, Singapore.
