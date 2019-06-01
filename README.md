@@ -74,7 +74,8 @@ Inception V3  | Original + Salient| 91.81 |80.3 |78.91
 Inception ResNet V2|Original Images|91.76|77|76.35
 Inception ResNet V2|Original + Salient|92.29|81|80
 
-Evaluation comparison (in %) of different models
+Evaluation comparison (in %) of different models:
+
 Model Architecture|  Train | Validation | Test
 ------------- | ---------  | ---------- | -------
 GBVS + InceptionResNetV2| 92.61 | 89.65 |  86.18
@@ -83,6 +84,7 @@ Inception ResNetV2 + Random Forest| 91.58 | 89.8
 Average Ensembling |94.58|93.8|90.08
 
 Comparison of our best model with competing methods[4]:
+
 Framework|Test
 ---------|----
 SIFT + BoW| 51%
